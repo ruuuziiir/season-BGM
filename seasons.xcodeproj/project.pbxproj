@@ -13,6 +13,11 @@
 		83D585E9258224B700105713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D585E7258224B700105713 /* Main.storyboard */; };
 		83D585EB258224BE00105713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D585EA258224BE00105713 /* Assets.xcassets */; };
 		83D585EE258224BE00105713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D585EC258224BE00105713 /* LaunchScreen.storyboard */; };
+		83D585F82582252300105713 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D585F72582252300105713 /* player.swift */; };
+		83D585FC2582261D00105713 /* fallMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D585FB2582261D00105713 /* fallMusic.mp3 */; };
+		83D586012582262A00105713 /* winterMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D585FE2582262900105713 /* winterMusic.mp3 */; };
+		83D586022582262A00105713 /* summerMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D585FF2582262A00105713 /* summerMusic.mp3 */; };
+		83D586032582262A00105713 /* springMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83D586002582262A00105713 /* springMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		83D585EA258224BE00105713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83D585ED258224BE00105713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83D585EF258224BE00105713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D585F72582252300105713 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		83D585FB2582261D00105713 /* fallMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fallMusic.mp3; path = "../../yamanote拷貝.playground/Resources/fallMusic.mp3"; sourceTree = "<group>"; };
+		83D585FE2582262900105713 /* winterMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = winterMusic.mp3; path = "../../yamanote拷貝.playground/Resources/winterMusic.mp3"; sourceTree = "<group>"; };
+		83D585FF2582262A00105713 /* summerMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = summerMusic.mp3; path = "../../yamanote拷貝.playground/Resources/summerMusic.mp3"; sourceTree = "<group>"; };
+		83D586002582262A00105713 /* springMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = springMusic.mp3; path = "../../yamanote拷貝.playground/Resources/springMusic.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				83D585EA258224BE00105713 /* Assets.xcassets */,
 				83D585EC258224BE00105713 /* LaunchScreen.storyboard */,
 				83D585EF258224BE00105713 /* Info.plist */,
+				83D585F72582252300105713 /* player.swift */,
+				83D586002582262A00105713 /* springMusic.mp3 */,
+				83D585FF2582262A00105713 /* summerMusic.mp3 */,
+				83D585FB2582261D00105713 /* fallMusic.mp3 */,
+				83D585FE2582262900105713 /* winterMusic.mp3 */,
 			);
 			path = seasons;
 			sourceTree = "<group>";
@@ -127,6 +142,10 @@
 				83D585EE258224BE00105713 /* LaunchScreen.storyboard in Resources */,
 				83D585EB258224BE00105713 /* Assets.xcassets in Resources */,
 				83D585E9258224B700105713 /* Main.storyboard in Resources */,
+				83D585FC2582261D00105713 /* fallMusic.mp3 in Resources */,
+				83D586032582262A00105713 /* springMusic.mp3 in Resources */,
+				83D586012582262A00105713 /* winterMusic.mp3 in Resources */,
+				83D586022582262A00105713 /* summerMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D585F82582252300105713 /* player.swift in Sources */,
 				83D585E6258224B700105713 /* ViewController.swift in Sources */,
 				83D585E2258224B700105713 /* AppDelegate.swift in Sources */,
 				83D585E4258224B700105713 /* SceneDelegate.swift in Sources */,
