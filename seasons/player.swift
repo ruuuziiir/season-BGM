@@ -11,9 +11,11 @@ import AVFoundation
 class Season {
 
     var name = ""
-    
-    let synthesizer = AVSpeechSynthesizer()
     let player = AVPlayer()
+    
+    func stop() {
+        player.pause()
+    }
 
 }
 
@@ -26,10 +28,6 @@ class Spring: Season {
         player.replaceCurrentItem(with: playerItem)
         player.play()
     }
-    func stop() {
-        player.pause()
-    }
-    
 }
 
 //
@@ -41,10 +39,6 @@ class Summer: Season {
         player.replaceCurrentItem(with: playerItem)
         player.play()
     }
-    func stop() {
-        player.pause()
-    }
-    
 }
 
 //
@@ -56,10 +50,6 @@ class Fall: Season {
         player.replaceCurrentItem(with: playerItem)
         player.play()
     }
-    func stop() {
-        player.pause()
-    }
-    
 }
 
 //
@@ -70,9 +60,6 @@ class Winter: Season {
         let playerItem = AVPlayerItem(url: fileUrl)
         player.replaceCurrentItem(with: playerItem)
         player.play()
-    }
-    func stop() {
-        player.pause()
     }
 }
 

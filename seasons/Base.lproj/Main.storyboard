@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cb1cc61c619dbc42dc65c32cf6fb78ee" translatesAutoresizingMaskIntoConstraints="NO" id="ale-6D-Xau">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cb1cc61c619dbc42dc65c32cf6fb78ee" translatesAutoresizingMaskIntoConstraints="NO" id="ale-6D-Xau" userLabel="background">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お好きな季節を選んでね" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F2n-yy-N7p">
